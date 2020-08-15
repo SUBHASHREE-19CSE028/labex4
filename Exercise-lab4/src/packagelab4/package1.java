@@ -20,10 +20,12 @@ public class package1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Accessing package 1");
         first s=new first();
         s.display();
         second s1=new second();
         s1.display();
+        System.out.println("Accessing package 2");
         third s2=new third();
         s2.display();
         fourth s3=new fourth();
